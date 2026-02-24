@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class MyService {
 
-    public static final String dbPath = "C:/Users/Honor/Documents/develop/JBDC/src/main/resources/Office/Office";
+    public static final String dbPath = "./src/main/resources/Office/Office";
 
     static void setupConnection() throws SQLException, ClassNotFoundException {
 

@@ -23,8 +23,7 @@ public class Employee {
             System.out.println("Сотрудников в IT-отделе: " + itEmployees);
 
         } catch (SQLException e) {
-            System.err.println("Ошибка выполнения: " + e.getMessage());
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 
